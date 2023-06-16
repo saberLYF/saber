@@ -39,4 +39,4 @@ git clone repo_url(仓库url地址)
 
 U （Untracked） 未跟踪（新增）
 A (added) 已跟踪
-M （modified） 跟踪后被修改 
+M （modified） 跟踪后被修改 完成
