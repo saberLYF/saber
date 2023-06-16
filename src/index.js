@@ -6,7 +6,7 @@ import './styles/index.css'
 jQuery(function(){
     console.log(12345)
 })
-
+console.log(a);
 // jQuery.ajax({
 //     url:"http://127.0.0.1:3000/api/abc"
 // })
