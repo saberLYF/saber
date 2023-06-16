@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <% htmlWebpackPlugin.options.script.forEach(function (item) {%>
+    <script src="<%=item%>"></script>
+    <%})%>
+  <!-- <script src="<%=htmlWebpackPlugin.options.script[0]%>"></script> -->
+  <title>Document</title>
+
+</head>
+
+<body>
+  <div class="w-screen h-screen ">
+    hello world
+  </div>
+</body>
+<!-- 加载js和css哪一个会阻塞页面的渲染 -->
+
+<!-- 页面加载的流程是什么样的 -->
+
+<!-- script标签defer async perfetch分别有什么作用  什么时候使用 -->
+</html>
