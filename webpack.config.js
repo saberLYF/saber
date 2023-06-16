@@ -52,7 +52,7 @@ module.exports={
         open:true,
         // 配置前端请求代理
         proxy:{
-            // 在开发环境下面代理的目标是http://127.0.0.1:3000
+            // 01在开发环境下面代理的目标是http://127.0.0.1:3000
             // 在生产环境下面代理的的目标是http://api.cc0820.top：3000
             "^/api":{
                 target:process.env.NODE_ENV==='development'?"http://127.0.0.1:3000":process.env.NODE_ENV==='production'?'http://api.cc0820.top:3000':'',
