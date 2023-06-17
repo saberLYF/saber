@@ -1,6 +1,5 @@
 const HTMLWebpackPulgin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const WebpackBar = require("webpackbar");
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const path = require("path");
 
