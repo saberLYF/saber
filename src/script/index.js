@@ -20,4 +20,38 @@ window.onload = function(){
         document.querySelector(".dowload_mengban").style.opacity = 1;
         document.querySelector(".dowload_mengban").style.display = "block";
     })
+
+    let arr = [
+        "./image/logo.png",
+        "./image/on.png",
+        "./image/icon1.png",
+        "./image/download.png",
+        "./image/xx.png",
+        "./image/erweima.png",
+        "./image/appStore.png",
+        "./image/anzhuo.png",
+        "./image/taptap.png",
+        "./image/pc.png",
+        "./image/erweima.png",
+        "./image/appStore.png",
+        "./image/anzhuo.png",
+        "./image/taptap.png",
+        "./image/pc.png",
+        "./image/bofang.png",
+        "./image/12+.png",
+        "./image/youce.png",
+        "./image/weixin2.png",
+        "./image/weibo.png",
+        "./image/tap.png",
+        "./image/mi.png",
+        "./image/bilibili.png",
+        "./image/qq.png"
+    ]
+
+    let img = document.querySelectorAll('.img');
+    let fn = () =>{
+        for(let i=0;i<img.length;i++){
+            img[i].src = arr[i]
+        }
+    }
 }

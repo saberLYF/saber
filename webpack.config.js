@@ -32,12 +32,12 @@ module.exports = {
         new MiniCssExtractPlugin({
             filename: "./css/main.[contenthash:8].css",
         }),
-        new CopyWebpackPlugin({
-            patterns: [
-                { from: 'public/image', to: 'image' },
-                { from: 'public/video', to: 'video' },
-            ],
-        }),
+        // new CopyWebpackPlugin({
+        //     patterns: [
+        //         { from: 'public/image', to: 'image' },
+        //         { from: 'public/video', to: 'video' },
+        //     ],
+        // }),
     ],
     // module 添加模块资源的配置，值是对象
     module: {
