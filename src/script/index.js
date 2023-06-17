@@ -54,4 +54,5 @@ window.onload = function(){
             img[i].src = arr[i]
         }
     }
+    fn();
 }
