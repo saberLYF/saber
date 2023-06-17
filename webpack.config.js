@@ -45,7 +45,7 @@ module.exports = {
         rules: [
             // 解析txt文件
             {
-                test: /\.txt$/,
+                test: /\.(txt|mp4)$/,
                 type: 'asset/source',
             },
 
